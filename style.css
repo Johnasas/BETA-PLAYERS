@@ -1,0 +1,48 @@
+.site-title {
+    font-family: "Cambria", serif; /* Change font to Cambria */
+    font-size: 15px; /* Set font size to 15px */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ccffcc; /* Light Green */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #99e699; /* Slightly darker green for headers */
+    color: black;
+}
+
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+input {
+    width: 50px;
+    text-align: center;
+}
